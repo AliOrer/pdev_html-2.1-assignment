@@ -1,0 +1,85 @@
+*{
+    text-align: center;
+    text-decoration: none;
+    list-style-position: inside;
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 2rem;
+    color: rgba(255, 0, 0, 0.73);
+}
+h2,h3{
+    font-size: larger;
+}
+h2{
+    color:rgb(34, 30, 138);
+}
+h3{
+    color: blueviolet;
+}
+p,li{
+    color: rgb(16, 80, 126);
+}
+
+p:hover{
+    background-color: rgb(255, 240, 240);
+}
+#ul1>li:hover{
+    background-color: rgba(178, 248, 153, 0.558);
+}
+#ul1>li{
+    padding: 7.1px;
+}
+input, textarea{
+    margin: 5px;
+    border-radius: 5px;
+
+}
+ label:hover{
+    border: 2px red solid;
+    color: red;
+    border-radius: 5px;
+}
+
+input:hover{
+    border: 2px red solid;
+}
+.button{
+    margin-left: 4em ;
+    height: 25px;
+    font-size: 19px;
+    background-color: rgba(149, 0, 255, 0.202);
+}
+
+input::placeholder{
+    background-color: rgba(0, 145, 255, 0.091);
+    color: rgba(4, 14, 21, 0.412);
+}
+
+#nav>li>a{
+    font-size: 21px;
+   color: black;
+}
+#nav>li{
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 8px;
+}
+#nav{
+    padding-bottom: 40px;
+    display: flex;
+    padding-left: 50%;
+}
+
+#nav>li>a:hover{
+    background-color: rgba(0, 0, 0, 0.164);
+    border-radius: 10px;
+    color: red;
+}
+
+::selection{
+    color: rgb(255, 0, 140)  ;
+}
+form{
+    margin-bottom: 10%;
+}
